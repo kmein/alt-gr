@@ -19,8 +19,6 @@ h1, h2, h3, h4, h5, h6 { text-align: center; }
     padding: 10px 0;
     background-color: #006A8D;
     color: white;
-    -webkit-box-shadow: 0px 8px 26px -17px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 8px 26px -17px rgba(0,0,0,0.75);
     box-shadow: 0px 8px 26px -17px rgba(0,0,0,0.75);
 }
 
@@ -35,11 +33,12 @@ h1, h2, h3, h4, h5, h6 { text-align: center; }
     width: 180px;
     float: left;
     background-color: #eee;
+    border-top: solid #006a8d 10px;
     border-bottom: solid #006a8d 10px;
 }
 
-    #side nav ul { list-style: none; padding: 0; }
-    #side nav ul li { text-align: center; }
+    nav ul { list-style: none; padding: 0; }
+    nav ul li { text-align: center; }
     #side nav ul li a {
         display: block;
         font-weight: bold;
@@ -49,35 +48,34 @@ h1, h2, h3, h4, h5, h6 { text-align: center; }
         transition-duration: 300ms, 300ms;
         transition-timing-function: ease-out;
     }
-    #side nav ul li a.language {
-        display: inline-block;
-        padding: 1.28rem;
-    }
-    #side nav ul li a:hover, nav ul li a.active {
+    #side nav ul li a:hover, #side nav ul li a.active {
         background-color: #006A8D;
         color: white;
     }
 
 
 #langselector {
-    
+    float: right;
 }
 
-#content {
+header, #content {
     width: 800px;
     margin: auto;
     float: right;
 }
 
 header, #captioned-gallery, article, footer, #side {
-    -webkit-box-shadow: 10px 10px 44px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 44px -7px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 44px -7px rgba(0,0,0,0.75);
 }
 
 header, article { background-color: white; } 
 header { margin-bottom: 10px; }
-article { margin-top: 10px; padding: 20px; }
+article {
+    margin-top: 10px;
+    padding: 20px;
+    border-top: solid #006a8d 10px;
+    border-bottom: solid #006a8d 10px;
+}
 
 footer {
     clear: both;
@@ -88,3 +86,21 @@ footer {
 }
 a { text-decoration: none; }
 a:hover { font-weight: bold; }
+
+/* Phablets/Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #side, #wrapper, #content { float: none; }
+    #side { margin-bottom: 10px; }
+}
+
+/* Smartphones */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body { font-size: larger; }
+    #langselector { display: none; }
+    #side, #wrapper, #content, header { width: 100%; }
+    #side, #wrapper, #content { float: none; }
+    #side nav h3 { display: none; }
+    header { vertical-align: top; }
+    /*#wrapper { margin: 5px auto; }*/
+    #side { margin-bottom: 10px; }
+}
