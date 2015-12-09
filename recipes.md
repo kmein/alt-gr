@@ -56,4 +56,21 @@
 
 
 ## ἡ Σκευωρία
+Τὰ κρέα τέμετε ἵνα ὦσι κύβοι 3 κ-μέτρου.
+Μείγνυτε τὸ λίπος τοῖς πᾶσι μέρεσι (οὐ τῷ ὀριγάνῳ) καὶ ἔπειτα ἐν δὲ τούτοις ταριχεύσατε τὰ κρέα - πάντην τὴν νύκτα.
+Τῇ ὑστεραίῃ ἡμέρῃ λάβετε τὰ κρέα τε καὶ ἀναπείρατε ταῦτα ἐν μέρει τῆς παπρίκης (τῆς ἐρυθρῆς καὶ τῆς χλωρῆς καὶ τῆς τετμημένης).
+Νῦν ἀμφοτέρωθεν τὰ ἀκόντια ὀπτήσατε. Σπείρατε ὀρίγανον ὑπὲρ τὰ Σουβλάκια.
+
+Das Fleisch in ca. 2,5-3 cm große Würfel schneiden.
+Das Olivenöl mit allen anderen Zutaten (außer Oregano) mischen und die Fleischstücke über Nacht darin marinieren.
+Am nächsten Tag das Fleisch aus der Marinade nehmen und abwechselnd mit Paprikastücken (rot/grün in Stücke geschnitten) auf die Spieße stecken.
+
+Nun die Spieße von jeder Seite ca. 3-5 Min. grillen!
+
+Die Souvlaki-Spieße mit Oregano bestreuen, auf einem Teller mit Zitronenvierteln anrichten.
+
+(Als Beilage empfehle ich Tzatziki, Fladenbrot, Tomatenviertel und Zwiebelringe!)
+
+Extra Tipp: Es kann auch etwas Oregano zur Marinade gegeben werden!
+Der Rest wird dann über die fertigen Spieße gestreut! 
 

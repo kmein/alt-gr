@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=greek,latin,greek-ext);
 body {
     font-family: 'Istok Web', 'Noto Sans', Verdana, sans-serif;
+    font-weight: 100;
     background-color: #717677;
 }
 
@@ -89,7 +90,7 @@ article {
     }
     article h2 {
         padding-bottom: 5px;
-        border-bottom: solid #006a8d 1px;
+        border-bottom: solid #006a8d 2px;
     }
     article section { display: inline-block; overflow: hidden;}
     article section.ingredients {
