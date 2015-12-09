@@ -12,7 +12,7 @@ var news = {
     'GR': [
         "Τροία: αἱ πολιταὶ ἐπὶ ὁδῷ ξυλινῷ", 
         "Σωκράτης: ἓν οἶδεν ὄτι οὐδὲν οἶδεν", 
-        "Ὅκος πόκος Φειδίας: εἴδολον τοῦ Διὸς διαπέπρακται ἐν τῇ Ὀλυμπίᾳ"
+        "Ὅκος πόκος Φειδίας: εἴδωλον τοῦ Διὸς διαπέπρακται ἐν τῇ Ὀλυμπίᾳ"
     ]
 };
 
@@ -26,7 +26,7 @@ function getNewsText(language) {
 }
 
 function setMarquee(language) {
-    var marquee = document.getElementsByTagName("marquee")[0]
+    var marquee = document.getElementById("newsticker-marquee");
     marquee.firstChild.nodeValue = getNewsText(language);
     marquee.start();
 }
