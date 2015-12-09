@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 { text-align: center; }
 
 a { text-decoration: none; }
 a:hover { font-weight: bold; }
+ul { list-style: square; }
 
 #wrapper {
     width: 1000px;
@@ -86,11 +87,25 @@ article {
         margin: 0 auto;
         width: 200px; height: auto;
     }
-    article section {
-        overflow: hidden;
-        
+    article h2 {
+        padding-bottom: 5px;
+        border-bottom: solid #006a8d 1px;
     }
-    
+    article section { display: inline-block; overflow: hidden;}
+    article section.ingredients {
+        float: left;
+        width: 25%;
+    }
+    article section.preparation {
+        float: right;
+        width: 62.5%;
+    }
+        article section.preparation .attribution {
+            text-align: right;
+            font-style: italic;
+            color: #717677;
+            padding-top: 5px;
+        }
 
 .img-circle {
     border-radius: 50%;
@@ -114,8 +129,9 @@ footer {
     #logo { display: block; margin: 0 auto; width: 50%; height: auto; }
     #side, #wrapper, #content { float: none; }
     #side nav h3 { display: none; }
-    header { vertical-align: top; }
+    header { vertical-align: top; width: 100%; }
     main { margin-top: 50px; }
+    article section, article section.preparation, article section.ingredients { float: none; width: 100%; display: inline;}
     #side { margin-bottom: 10px; }
     #langselector { display: none; }
 }
