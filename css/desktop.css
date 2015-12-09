@@ -17,7 +17,7 @@ a:hover { font-weight: bold; }
 }
 
 #title {
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: #006A8D;
     color: white;
     box-shadow: 0px 8px 26px -17px rgba(0,0,0,0.75);
@@ -33,10 +33,15 @@ a:hover { font-weight: bold; }
 #side {
     width: 180px;
     float: left;
+    position: fixed;
     background-color: #eee;
     border-top: solid #006a8d 10px;
     border-bottom: solid #006a8d 10px;
 }
+    #side #logo img {
+        width: 100%;
+        height: auto;
+    }
 
     nav ul { list-style: none; padding: 0; }
     nav ul li { text-align: center; }
@@ -81,9 +86,10 @@ article {
         margin: 0 auto;
         width: 200px; height: auto;
     }
-    article section { display: inline-block; }
-    article section#ingredients { width: 33%; float: left; vertical-align: top; }
-    article section#preparation { float: right; }
+    article section {
+        overflow: hidden;
+        
+    }
     
 
 .img-circle {
@@ -104,6 +110,8 @@ footer {
 
 @media screen and (min-width: 144px) and (max-width: 690px) {
     #side, #wrapper, #content { width: 100%; }
+    #side { position: static; }
+    #logo { display: block; margin: 0 auto; width: 50%; height: auto; }
     #side, #wrapper, #content { float: none; }
     #side nav h3 { display: none; }
     header { vertical-align: top; }
