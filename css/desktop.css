@@ -1,13 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=greek,latin,greek-ext);
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
-
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=greek,latin,greek-ext);
 body {
     font-family: 'Istok Web', 'Noto Sans', Verdana, sans-serif;
     background-color: #717677;
 }
 
 h2, h3, h4, h5, h6, a { color: #006A8D; }
-
 h1, h2, h3, h4, h5, h6 { text-align: center; }
 
 #wrapper {
@@ -53,10 +51,7 @@ h1, h2, h3, h4, h5, h6 { text-align: center; }
         color: white;
     }
 
-
-#langselector {
-    float: right;
-}
+#langselector { float: right; }
 
 header, #content {
     width: 800px;
@@ -69,12 +64,17 @@ header, #captioned-gallery, article, footer, #side {
 }
 
 header, article { background-color: white; } 
-header { margin-bottom: 10px; }
+header { margin-bottom: 20px; }
 article {
     margin-top: 10px;
     padding: 20px;
     border-top: solid #006a8d 10px;
     border-bottom: solid #006a8d 10px;
+}
+
+article img {
+    width: 50%;
+    height: auto;
 }
 
 footer {
@@ -87,20 +87,24 @@ footer {
 a { text-decoration: none; }
 a:hover { font-weight: bold; }
 
-/* Phablets/Tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    #side, #wrapper, #content { float: none; }
-    #side { margin-bottom: 10px; }
-}
-
-/* Smartphones */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+/*@media screen and (min-width: 144px) and (max-width: 480px) {
     body { font-size: larger; }
-    #langselector { display: none; }
-    #side, #wrapper, #content, header { width: 100%; }
+}*/
+
+@media screen and (min-width: 144px) and (max-width: 690px) {
+    #side, #wrapper, #content { width: 100%; }
     #side, #wrapper, #content { float: none; }
     #side nav h3 { display: none; }
     header { vertical-align: top; }
-    /*#wrapper { margin: 5px auto; }*/
     #side { margin-bottom: 10px; }
+    #langselector { display: none; }
+}
+
+@media screen and (min-width: 691px) and (max-width: 1010px) {
+    #wrapper { width: 100%; }
+    #content, #captioned-gallery { width: 78%; }
+    header {width: 100%;}
+    #side { width: 20%; overflow: hidden; }
+    /*header, #captioned-gallery, #content { float: none; }*/
+    #langselector { display: none; }
 }
