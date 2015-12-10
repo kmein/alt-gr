@@ -73,7 +73,7 @@ header, #captioned-gallery, article, footer, #side {
     box-shadow: 10px 10px 44px -7px rgba(0,0,0,0.75);
 }
 
-main { margin-top: 175px; }
+main { margin-top: 165px; }
 
 header, article { background-color: white; } 
 header { margin-bottom: 20px; }
@@ -86,7 +86,7 @@ article {
     article img {
         display: block;
         margin: 0 auto;
-        width: 200px; height: auto;
+        height: 200px; width: auto;
     }
     article h2 {
         padding-bottom: 5px;
@@ -107,6 +107,12 @@ article {
             color: #717677;
             padding-top: 5px;
         }
+article.god {
+    width: 27%;
+    float: left;
+    margin: 5px;
+    margin-bottom: 10px;
+}
 
 .img-circle {
     border-radius: 50%;
@@ -135,6 +141,7 @@ footer {
     article section, article section.preparation, article section.ingredients { float: none; width: 100%; display: inline;}
     #side { margin-bottom: 10px; }
     #langselector { display: none; }
+    article.god { width: inherit; float: none; }
 }
 
 @media screen and (min-width: 691px) and (max-width: 1010px) {
@@ -144,4 +151,5 @@ footer {
     #side { width: 20%; overflow: hidden; }
     /*header, #captioned-gallery, #content { float: none; }*/
     #langselector { display: none; }
+    article.god { width: inherit; float: none; }
 }
