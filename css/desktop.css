@@ -28,7 +28,6 @@ big { font-size: 72px; }
 #newsticker {
     border-radius: 5px;
     padding: 10px;
-    // font-weight: bold;
     color: #006A8D;
 }
 
@@ -142,18 +141,23 @@ footer {
     body { font-size: larger; }
 }*/
 
-@media screen and (min-width: 144px) and (max-width: 690px) {
-    #side, #wrapper, #content { width: 100%; }
-    #side { position: static; }
-    #logo { display: block; margin: 0 auto; width: 50%; height: auto; }
-    #side, #wrapper, #content { float: none; }
-    #side nav h3 { display: none; }
-    header { vertical-align: top; width: 100%; }
-    main { margin-top: 50px; }
+@media screen and (min-width: 1px) and (max-width: 690px) {
+    #side, #wrapper, #content, header { width: 100%; float: none; }
+   
+    header { position: fixed; top: 0; left: 0; }
+    #title { padding: 0px; }
+    #title h1 { margin: 0; }
+    #newsticker {
+        padding: 5px;
+    }
+    #side { position: static; margin-top: 85px; margin-bottom: 10px; }
+        #side #logo { display: block; margin: 0 auto; width: 50%; height: auto; }
+        #side nav h3 { display: none; }
+        #side nav ul li a { padding: 0.5rem; }
+    main { margin-top: 0; }
     article section, article section.preparation, article section.ingredients { float: none; width: 100%; display: inline;}
-    #side { margin-bottom: 10px; }
-    #langselector { display: none; }
     article.god { width: inherit; float: none; }
+    #langselector { display: none; }
 }
 
 @media screen and (min-width: 691px) and (max-width: 1010px) {
