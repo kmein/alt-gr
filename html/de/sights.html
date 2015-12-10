@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="../../img/logo.png"/>
+        <link rel="stylesheet" href="../../css/desktop.css"/>
+        <link rel="stylesheet" href="../../css/slider.css"/>
+        <script src="../../jquery-2.1.4.min.js"></script>
+        <script src="../../js/main.js"></script>
+        <title>Ὀπτέα ¦ Ἀρχαία Ἔλλας</title>
+    </head>
+    <body onload="init('DE');">
+        <div id="langselector">
+            <nav>
+                <ul>
+                    <li><a class="language" href="../de/sights.html"><img src="../../img/icon_deu.gif" alt="DE"/></a></li>
+                    <li><a class="language active" href="../gr/sights.html"><img src="../../img/icon_gre.gif" alt="GR"/></a></li>
+                    <li><a class="language" href="../la/sights.html"><img src="../../img/icon_lat.gif" alt="LA"/></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="wrapper">            
+            <div id="side">
+                <div id="logo"><img src="../../img/logo.png"/></div>
+                <nav>
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Hauptseite</a></li>
+                        <li><a href="art-fashion.html">Kunst & Mode</a></li>
+                        <li><a href="philosophy-mathematics.html">Philosophie & Mathematik</a></li>
+                        <li><a href="religion.html">Religion</a></li>
+                        <li><a href="recipes.html">Rezepte</a></li>
+                        <li><a href="#" class="active">Sehenswertes</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="content">
+                <header>
+                    <div id="title"><h1>Sehenswertes</h1></div>
+                    <div id="newsticker">
+                        <marquee id="newsticker-marquee"
+                            loop="1" scrollamount="5" behavior="scroll" direction="left" 
+                            onmouseover="this.stop();" onmouseout="this.start();" onfinish="SetMarquee('DE');">
+                            !!! If this text appears, please consult the developer !!!
+                        </marquee>
+                    </div>
+                </header>
+                <main>
+                    <article>
+                        Hier sehen Sie Bilder der größten griechischen Sehenswürdigkeiten.
+                        Diese sind:
+                        <ul>
+                            <li><strong>die Akropolis von Athen</strong> eine der größten Akropolen</li>
+                            <li><strong>Delphi</strong> die Mitte der Welt</li>
+                            <li><strong>Olympia</strong> die Stadt der Olympischen Spiele</li>
+                            <li><strong>Mykene</strong> der mythische König Agamemnon lebte dort</li>
+                            <li><strong>Hosios Lukas</strong> das größte byzantinische Kloster</li>
+                        </ul>
+                    </article>
+                    <div id="captioned-gallery">
+                        <figure class="slider">
+                            <figure>
+                                <img src="../../img/acropolis.jpg" alt>
+                                <figcaption><strong>Akropolis von Athen</strong><br/>das Zentrum der Stadt Athen</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="../../img/delphi.jpg" alt>
+                                <figcaption><strong>Delphi</strong><br/>wo das pythische Orakel und der Nabel der Welt ist</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="../../img/olympia.jpg" alt>
+                                <figcaption><strong>Olympia</strong><br/>die Stadt mit dem größten Zeusheiligtum</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="../../img/mycene.jpg" alt>
+                                <figcaption><strong>Mykene</strong><br/>wo Agamemnon lebte</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="../../img/hosios-loukas.jpg" alt>
+                                <figcaption><strong>Hosios Lukas</strong><br/>Griechenlands größtes und bekanntestes Kloster</figcaption>
+                            </figure>
+                            <!--<figure>
+                                <img src="images/temple2.jpg" alt>
+                                <figcaption><strong>τὰ Ὀπτέα</strong><br/>Ἑλλαδὸς ὀπτέον: ὁ νάος ὁ τῶν παρθένων ἐν τῇ Ἀκροπόλει</figcaption>
+                            </figure>-->
+                        </figure>
+                    </div>
+                </main>
+                <footer>Copyright &copy; <a href="mailto://kieran.meinhardt@gmail.com" title="Schickt mir eine E-Mail">Kierán Meinhardt</a></footer>
+            </div>
+        </div>
+    </body>
+</html>

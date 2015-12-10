@@ -20,7 +20,6 @@ div#captioned-gallery {
 figure { 
   margin: 0; background: #101010;
   font-family: Istok Web, sans-serif;
-  font-weight: 100;
   text-align: center;
 }
 figure.slider { 
