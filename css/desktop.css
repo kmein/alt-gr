@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=greek,latin,greek-ext);
 body {
-    font-family: 'Istok Web', 'Noto Sans', Verdana, sans-serif;
+    font-family: Noto Sans, sans-serif;
     font-weight: 100;
     background-color: #717677;
 }
@@ -78,7 +78,7 @@ main { margin-top: 165px; }
 header, article { background-color: white; } 
 header { margin-bottom: 20px; }
 article {
-    margin-top: 10px;
+    margin: 10px 0;
     padding: 20px;
     border-top: solid #006a8d 10px;
     border-bottom: solid #006a8d 10px;
