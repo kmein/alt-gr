@@ -6,23 +6,25 @@ Responsive! Ohne Templates!
 
 Entstanden im E1-Informatik-GK (Rehm) des Friedrichsgymnasiums Kassel.
 
-## Hauptseite
+## Die Website
+
+### Hauptseite
 Allgemeine Einführung in die Website und Griechenland an sich.
 
-## Kunst & Mode
+### Kunst & Mode
 Die newsten News aus dem olden Greece. (Mit versauter Töpfereislideshow.)
 
-## Philosophie & Mathematik
+### Philosophie & Mathematik
 Eine Ansammlung von Erkenntnissen des Platon oder Pythagoras o.ä.
 
-## Religion
+### Religion
 Eine Liste der olympischen Götter mit Zeichnung.
 
-## Rezepte
+### Rezepte
 Zwei wirklich gute Rezepte mit Tradition: Tzatziki und Souvlaki.
 
-## Sehenswertes
+### Sehenswertes
 Ein paar Sehenswürdigkeiten in Griechenland mit kurzer Beschreibung.
 
-## Impressum
+### Impressum
 Legalkram.
