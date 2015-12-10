@@ -112,7 +112,19 @@ article.god {
     float: left;
     margin: 5px;
     margin-bottom: 10px;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
 }
+article.god:hover {
+    background-color: #006a8d;
+    transition-timing-function: ease-in;
+}
+    article.god:hover h2 {
+        color: white;
+        border-bottom-color: white;
+        transition-property: color, border-bottom-color;
+    }
 
 .img-circle {
     border-radius: 50%;
