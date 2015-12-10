@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=greek,latin,greek-ext);
 body {
     font-family: Noto Sans, sans-serif;
-    font-weight: 100;
     background-color: #717677;
 }
 
@@ -28,7 +27,7 @@ ul { list-style: square; }
 #newsticker {
     border-radius: 5px;
     padding: 10px;
-    font-weight: bold;
+    // font-weight: bold;
     color: #006A8D;
 }
 
