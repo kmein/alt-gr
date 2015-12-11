@@ -131,7 +131,7 @@ article.god:hover {
 
 footer {
     clear: both;
-    margin-top: 10px;
+    margin: 10px 0;
     background-color: #eee;
     text-align: center;
     padding: 10px;
@@ -144,7 +144,7 @@ footer {
 @media screen and (min-width: 1px) and (max-width: 690px) {
     #side, #wrapper, #content, header { width: 100%; float: none; }
    
-    header { position: fixed; top: 0; left: 0; }
+    header { position: fixed; top: 0; left: 0; z-index: 10000;}
     #title { padding: 0px; }
     #title h1 { margin: 0; }
     #newsticker {
