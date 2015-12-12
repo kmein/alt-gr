@@ -1,5 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Istok+Web);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=greek,latin,greek-ext);
+@font-face {
+    font-family: 'Theano Didot';
+    src: url(../ttf/theano-didot.ttf);
+}
+
 body {
     font-family: Noto Sans, sans-serif;
     background-color: #717677;
@@ -12,6 +16,7 @@ a { text-decoration: none; }
 a:hover { font-weight: bold; }
 ul { list-style: square; }
 big { font-size: 72px; }
+dd { margin-left: 5px; }
 
 #wrapper {
     width: 1000px;
@@ -22,6 +27,7 @@ big { font-size: 72px; }
     padding: 5px 0;
     background-color: #006A8D;
     color: white;
+    font-family: 'Theano Didot';
     box-shadow: 0px 8px 26px -17px rgba(0,0,0,0.75);
 }
 
@@ -116,8 +122,14 @@ article {
             color: #717677;
             padding-top: 5px;
         }
+    article p.subtitle {
+        text-align: center;
+        font-style: italic;
+        font-size: larger;
+    }
 article.god {
     width: 27%;
+    height: 250px;
     float: left;
     margin: 5px;
     margin-bottom: 10px;
@@ -128,8 +140,9 @@ article.god {
 article.god:hover {
     background-color: #006a8d;
     transition-timing-function: ease-in;
+    color: white;
 }
-    article.god:hover h2 {
+    article.god:hover h2, article.god:hover h3, article.god:hover a {
         color: white;
         border-bottom-color: white;
         transition-property: color, border-bottom-color;
@@ -137,6 +150,11 @@ article.god:hover {
 
 .img-circle {
     border-radius: 50%;
+}
+
+div.center {
+    width: 33.3%;
+    margin: 0 auto;
 }
 
 footer {
