@@ -16,6 +16,11 @@ div#captioned-gallery {
   width: 100%; overflow: hidden; 
 }
 
+div#captioned-gallery.free figure.slider figure img {
+  height: 300px;
+  width: auto;
+}
+
 figure { 
   margin: 0; background: #101010;
   text-align: center;

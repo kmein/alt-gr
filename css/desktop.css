@@ -74,6 +74,11 @@ header, #captioned-gallery, article, footer, #side {
 
 main { margin-top: 165px; }
 
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
 header, article { background-color: white; } 
 header { margin-bottom: 20px; }
 article {
@@ -85,6 +90,11 @@ article {
     article img {
         display: block;
         margin: 0 auto;
+        height: 200px; width: auto;
+    }
+    article img.free {
+        display: inline;
+        margin: 20px;
         height: 200px; width: auto;
     }
     article h2 {
