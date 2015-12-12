@@ -14,7 +14,7 @@ Allgemeine Einführung in die Website und Griechenland an sich.
 ### Kunst & Mode
 Die newsten News aus dem olden Greece. (Mit versauter Töpfereislideshow.)
 
-### Philosophie & Mathematik
+### Philosophie
 Eine Ansammlung von Erkenntnissen des Platon oder Pythagoras o.ä.
 
 ### Religion
