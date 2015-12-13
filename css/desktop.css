@@ -196,6 +196,12 @@ article.newspaper p {
 }
 
 @media screen and (min-width: 1px) and (max-width: 690px) {
+    #title, header, #captioned-gallery, article, footer, #side {
+        -moz-box-shadow: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    
     #langselector { display: none; }
     #title { padding: 0px; }
     #title h1 { margin: 0; }
