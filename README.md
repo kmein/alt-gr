@@ -6,6 +6,8 @@ Responsive! Ohne Templates!
 
 Entstanden im E1-Informatik-GK (Rehm) des Friedrichsgymnasiums Kassel.
 
+Kleine Info: funktioniert am besten mit Chrome (Firefox geht zur Not auch).
+
 ## Die Website
 
 ### Hauptseite
