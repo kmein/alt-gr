@@ -12,7 +12,11 @@ body {
 h2, h3, h4, h5, h6, a { color: #006A8D; }
 h1, h2, h3, h4, h5, h6 { text-align: center; }
 
-a { text-decoration: none; }
+a {
+	text-decoration: none;
+	font-family: Noto Sans, sans-serif
+}
+
 a:hover { font-weight: bold; }
 ul { list-style: square; }
 big { font-size: 72px; }
