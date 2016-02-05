@@ -273,3 +273,7 @@ article.newspaper p {
         column-count: 2;
     }
 }
+
+.marquee {
+	overflow: hidden;
+}

@@ -33,9 +33,13 @@ function getRandom(array) {
 getNewsText = function(language) { return '+++ ' + getRandom(news[language]) + ' +++' }
 
 function setMarquee(language) {
-    var marquee = document.getElementById("newsticker-marquee");
-    marquee.firstChild.nodeValue = getNewsText(language);
-    marquee.start();
+	var marquee = document.getElementsByClassName("marquee")[0];
+	var $mq = $('.marquee');
+	$mq
+		.marquee('destroy')
+		.bind('finished', function(){setMarquee(language)})
+		.html(getNewsText(language))
+		.marquee({duration: 7500, gap: 250, delayBeforeStart: 0, pauseOnHover: true});
 }
 
 init = setMarquee;

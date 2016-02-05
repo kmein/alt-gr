@@ -7,6 +7,8 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="../../css/desktop.css"/>
         <link rel="stylesheet" href="../../css/slider.css"/>
+        <script src="../../jquery-2.1.4.min.js"></script>
+		<script src="../../js/jquery-marquee/jquery.marquee.min.js"></script>
         <script src="../../js/main.js"></script>
         <title>Ἐντολικά ¦ Ἀρχαία Ἔλλας</title>
     </head>
@@ -40,11 +42,7 @@
                 <header>
                     <div id="title"><h1>Ἐντολικά</h1></div>
                     <div id="newsticker">
-                        <marquee id="newsticker-marquee"
-                            loop="0.5" scrollamount="5" behavior="scroll" direction="left" 
-                            onmouseover="this.stop();" onmouseout="this.start();" onfinish="setMarquee('GR');">
-                            !!! If this text appears, please consult the developer !!!
-                        </marquee>
+                        <div class="marquee">!!! If this text appears, please consult the developer !!!</div>
                     </div>
                 </header>
                 <main>
